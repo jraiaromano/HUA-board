@@ -1,7 +1,7 @@
 # HandUpAmerica Dashboard
 
 ## Overview
-    This is the repository of a project in which I created an Excel Dashboard using income tax information to guide business decisions to assign grant money.
+This is the repository for a project in which I created an Excel dashboard to help drive business decisions for a fictional nonprofit. 
 
 ## The Pitch
 You have been tasked with creating an interactive dashboard for an organization that provides assistance for low income and elderly taxpayers. You have been asked to create this dashboard using the 2016 IRS individual tax return data provided.
