@@ -1,7 +1,12 @@
 # HandUpAmerica Dashboard
 
 ## Overview
-    This is the repository of a project in which I created an Excel Dashboard using income tax information to guide business decisions to assign grant money.
+This is the repository of a project in which I created an Excel Dashboard using income tax information to guide business decisions to assign grant money.
+## Project Takeaways
+This dataset pushed me harder than any I had worked with before due to the number of columns and how separated the data was. Having to pluck out one cell in every 11 was a mental exercise I hadn't done before and I am better for having done it.   
+I am extremely grateful that I set my sights high and really committed to creating a zero-scroll dashboard because it forced me to go learn something new: array formulas. Not just Vlookup, not just index/match, but index-match-match to use multiple indices to define my searches.  
+I also had not really worked with data validation dropdown menus and they really helped make my dynamic maps and charts work. It's a useful tool and one I won't forget. It's easy to overlook them when a fancy slicer is available but I plan to use it regularly from now on.  
+![image](https://user-images.githubusercontent.com/52726447/71217406-57f5ad00-2283-11ea-80b5-92ce7ae9be2f.png)
 
 ## The Pitch
 You have been tasked with creating an interactive dashboard for an organization that provides assistance for low income and elderly taxpayers. You have been asked to create this dashboard using the 2016 IRS individual tax return data provided.
@@ -26,7 +31,4 @@ With a deliverable that was both specific and vague, I first worked through find
 
  After performing this analysis, I planned out my dashboard. I decided I wanted to confine the dashboard to the visible screen without requiring scrolling. To this end, I figured out that I could combine my charts to 2 types: State data compared to national data, and groups of 10 states plotted on a map (such 10 states with the highest tax liability). I created a pull table for each of these using array formulas(Index-match-match) so that I could display all the info for groups of 10 states on a single dynamic heatmap, and State VS national on a combination chart. I then created supplemental visualizations to help interpretational and comprehension, like a written list of the maps displayed on the heatmap, as well as an at-a-glance bar chart that provided a very simple relationship touchstone. I rounded it out with a custom logo (created in canva)and a basic Venn diagram to highlight my recommendations and the reasons I chose those states.
 
-## Project Takeaways
-This dataset pushed me harder than any I had worked with before due to the number of columns and how separated the data was. Having to pluck out one cell in every 11 was a mental exercise I hadn't done before and I am better for having done it.   
-I am extremely grateful that I set my sights high and really committed to creating a zero-scroll dashboard because it forced me to go learn something new: array formulas. Not just Vlookup, not just index/match, but index-match-match to use multiple indices to define my searches.  
-I also had not really worked with data validation dropdown menus and they really helped make my dynamic maps and charts work. It's a useful tool and one I won't forget. It's easy to overlook them when a fancy slicer is available but I plan to use it regularly from now on.  
+
